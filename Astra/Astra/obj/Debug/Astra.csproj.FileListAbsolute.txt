@@ -1,0 +1,12 @@
+D:\Astra\Astra\Astra\bin\Debug\Astra.exe.config
+D:\Astra\Astra\Astra\bin\Debug\Astra.exe
+D:\Astra\Astra\Astra\bin\Debug\Astra.pdb
+D:\Astra\Astra\Astra\bin\Debug\Veylib.dll
+D:\Astra\Astra\Astra\bin\Debug\Newtonsoft.Json.dll
+D:\Astra\Astra\Astra\bin\Debug\Veylib.pdb
+D:\Astra\Astra\Astra\obj\Debug\Astra.csproj.AssemblyReference.cache
+D:\Astra\Astra\Astra\obj\Debug\Astra.csproj.SuggestedBindingRedirects.cache
+D:\Astra\Astra\Astra\obj\Debug\Astra.csproj.CoreCompileInputs.cache
+D:\Astra\Astra\Astra\obj\Debug\Astra.csproj.CopyComplete
+D:\Astra\Astra\Astra\obj\Debug\Astra.exe
+D:\Astra\Astra\Astra\obj\Debug\Astra.pdb

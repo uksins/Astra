@@ -19,8 +19,18 @@ namespace Astra
             Console.WindowWidth = width;
         }
 
+        static void SetHeight(int height)
+        {
+            Console.WindowHeight = height;
+        }
+
+
+
         static void Main(string[] args)
         {
+            SetWidth(175);
+            SetHeight(25);
+
             var props = new Core.StartupProperties
             {
                 Title = new Core.StartupConsoleTitleProperties

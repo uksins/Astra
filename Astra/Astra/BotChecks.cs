@@ -7,6 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Veylib.ICLI;
 using Veylib.Utilities.Net;
+using Veylib.VeyAPI.VeyAuth;
 
 namespace Astra
 {
@@ -43,7 +44,18 @@ namespace Astra
             request.SetHeader("Authorization", $"Bot {config.token}");
             NetResponse response = request.Send();
             dynamic json = response.ToJson();
-            // need to get username via json
+            string username = json.username;
+            string id = json.id;
+            core.WriteLine($"Client Username: [{username}]");
+            core.WriteLine($"Client ID: [{id}]");
+
+            var optable = new AsciiTable();
+            optable.AddColumn("1 - Server Management");
+            optable.AddColumn("2 - Channel Management");
+            optable.AddColumn("3 - Role Management");
+            optable.AddRow("4 - User Management", "5 - Webhook Management", "6 - Exit");
+            optable.WriteTable();
+
         }
     }
 }

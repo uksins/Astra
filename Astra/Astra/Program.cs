@@ -73,7 +73,13 @@ namespace Astra
             core.Clear();
 
             BotChecks.Information();
-
+            var optable = new AsciiTable();
+            optable.AddColumn("1 - Server Management");
+            optable.AddColumn("2 - Channel Management");
+            optable.AddColumn("3 - Role Management");
+            optable.AddRow("4 - User Management", "5 - Webhook Management", "6 - Exit");
+            optable.WriteTable();
+            Channels.Create();
         }
     }
 }

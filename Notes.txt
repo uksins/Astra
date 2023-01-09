@@ -1,0 +1,15 @@
+To do:
+
+Create a a module for:
+
+bans
+roles
+channels
+
+_________________________
+
+
+Create a server maker ( using a given template ) 
+
+__________________________
+

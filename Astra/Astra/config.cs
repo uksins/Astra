@@ -11,7 +11,7 @@ namespace Astra
         public static readonly string Logo = " █████╗ ███████╗████████╗██████╗  █████╗ \r\n██╔══██╗██╔════╝╚══██╔══╝██╔══██╗██╔══██╗\r\n███████║███████╗   ██║   ██████╔╝███████║\r\n██╔══██║╚════██║   ██║   ██╔══██╗██╔══██║\r\n██║  ██║███████║   ██║   ██║  ██║██║  ██║\r\n╚═╝  ╚═╝╚══════╝   ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═╝\r\n";
         public static string token;
         public static string guild;
-
-
+        public static string username;
+        public static string id;
     }
 }

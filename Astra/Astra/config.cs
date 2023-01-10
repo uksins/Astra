@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace Astra
 {
+    // File Used For Storing User Variables, And Program Variables
     internal class config
     {
         public static readonly string Logo = " █████╗ ███████╗████████╗██████╗  █████╗ \r\n██╔══██╗██╔════╝╚══██╔══╝██╔══██╗██╔══██╗\r\n███████║███████╗   ██║   ██████╔╝███████║\r\n██╔══██║╚════██║   ██║   ██╔══██╗██╔══██║\r\n██║  ██║███████║   ██║   ██║  ██║██║  ██║\r\n╚═╝  ╚═╝╚══════╝   ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═╝\r\n";

@@ -9,5 +9,4 @@
      - Creating Or Removing Channels Easily
      - Creating Or Deleting Roles Easily
      - Changing The Server Properties, Icon, Name, And More! With Ease
-
 </div>

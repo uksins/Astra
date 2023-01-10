@@ -1,6 +1,6 @@
 <div align="center"
 
-# Astra
+## Astra
 *A Command-Line Discord Tool
 
 </div>

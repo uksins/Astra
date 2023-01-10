@@ -1,6 +1,6 @@
 <div align="center"
 
-##Astra
+ASTRA
      
      
      A Command-Line Application, Which Makes Server Management A Little Easier.

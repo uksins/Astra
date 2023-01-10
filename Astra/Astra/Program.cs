@@ -11,8 +11,8 @@ namespace Astra
 {
     internal class Program
     {
+        // Defining Core For Veylib
         static Core core = new Core();
-        static string logo = config.Logo;
 
         static void SetWidth(int width)
         {
@@ -46,7 +46,7 @@ namespace Astra
 
                 Logo = new Core.StartupLogoProperties
                 {
-                    Text = logo,
+                    Text = config.Logo,
                 }
             };
 

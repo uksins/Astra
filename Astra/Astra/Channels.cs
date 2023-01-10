@@ -12,8 +12,10 @@ namespace Astra
 {
     internal class Channels
     {
+        // Define The Core Of Veylib
         static Core core = new Core();
-
+        
+        // Create's A Channel
         public static void Create()
         {
         restart:

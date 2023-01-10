@@ -7,6 +7,7 @@ using System.Net;
 using System.Threading.Tasks;
 using Veylib.ICLI;
 using Veylib.Utilities.Net;
+using Newtonsoft.Json;
 
 namespace Astra
 {
@@ -14,30 +15,34 @@ namespace Astra
     {
         // Define The Core Of Veylib
         static Core core = new Core();
-        
+
+        // Hold The Data For Our Class
+        public class Channel
+        {
+            public string name { get; set; }
+            public int type { get; set; }
+        }
+
         // Create's A Channel
         public static void Create()
         {
         restart:
             var cname = core.ReadLine("@Channel-Name $ ");
-            int type = 0;
-
-            byte[] data = Encoding.UTF8.GetBytes("{ \"topic\": \"Astra Discord Tool\", \"name\": \"" + cname + "\", \"type\": " + type + " }");
-            var request = WebRequest.Create($"https://discord.com/api/v10/guilds/{config.guild}/channels");
-            request.Headers.Add("Authorization", $"Bot {config.token}");
-            request.Method = "POST";
-            var stream = request.GetRequestStream();
-            stream.Write(data, 0, data.Length);
-            stream.Close();
-
-            try
+            var channel = new Channel()
             {
-                request.GetResponse();
+                name = cname,
+                type = 0
+            };
+            var content = JsonConvert.SerializeObject(channel);
+            var request = new NetRequest($"https://discord.com/api/v10/guilds/{config.guild}/channels");
+            request.SetHeader("Authorization", $"Bot {config.token}");
+            request.SetMethod(Method.POST);
+            request.SetContentType("application/json");
+            request.SetContent(content);
+            var response = request.Send();
+            if (response.Status != HttpStatusCode.BadRequest)
+            {
                 core.WriteLine(Color.Lime, $"Successfully Created Channel: {cname}");
-            }
-            catch(Exception ex)
-            {
-                core.WriteLine(Color.Red, $"An Error Occured While Creating: {cname}: {ex}");
             }
         }
     }

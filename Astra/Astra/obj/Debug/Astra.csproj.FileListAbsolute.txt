@@ -21,3 +21,16 @@ C:\Users\Roslyn-Emma\OneDrive\Desktop\Astra\Astra\Astra\Astra\obj\Debug\Astra.cs
 C:\Users\Roslyn-Emma\OneDrive\Desktop\Astra\Astra\Astra\Astra\obj\Debug\Astra.csproj.CopyComplete
 C:\Users\Roslyn-Emma\OneDrive\Desktop\Astra\Astra\Astra\Astra\obj\Debug\Astra.exe
 C:\Users\Roslyn-Emma\OneDrive\Desktop\Astra\Astra\Astra\Astra\obj\Debug\Astra.pdb
+C:\Users\chxrr\Desktop\Astra\Astra\Astra\Astra\bin\Debug\Astra.exe.config
+C:\Users\chxrr\Desktop\Astra\Astra\Astra\Astra\bin\Debug\Astra.exe
+C:\Users\chxrr\Desktop\Astra\Astra\Astra\Astra\bin\Debug\Astra.pdb
+C:\Users\chxrr\Desktop\Astra\Astra\Astra\Astra\bin\Debug\Newtonsoft.Json.dll
+C:\Users\chxrr\Desktop\Astra\Astra\Astra\Astra\bin\Debug\Veylib.dll
+C:\Users\chxrr\Desktop\Astra\Astra\Astra\Astra\bin\Debug\Newtonsoft.Json.xml
+C:\Users\chxrr\Desktop\Astra\Astra\Astra\Astra\bin\Debug\Veylib.pdb
+C:\Users\chxrr\Desktop\Astra\Astra\Astra\Astra\obj\Debug\Astra.csproj.AssemblyReference.cache
+C:\Users\chxrr\Desktop\Astra\Astra\Astra\Astra\obj\Debug\Astra.csproj.SuggestedBindingRedirects.cache
+C:\Users\chxrr\Desktop\Astra\Astra\Astra\Astra\obj\Debug\Astra.csproj.CoreCompileInputs.cache
+C:\Users\chxrr\Desktop\Astra\Astra\Astra\Astra\obj\Debug\Astra.csproj.CopyComplete
+C:\Users\chxrr\Desktop\Astra\Astra\Astra\Astra\obj\Debug\Astra.exe
+C:\Users\chxrr\Desktop\Astra\Astra\Astra\Astra\obj\Debug\Astra.pdb

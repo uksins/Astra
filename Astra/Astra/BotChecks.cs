@@ -54,6 +54,8 @@ namespace Astra
             string id = json.id;
             core.WriteLine($"Client Username: [{username}]");
             core.WriteLine($"Client ID: [{id}]");
+            
+            // Store Username And ID
             config.username = username;
             config.id = id;
         }

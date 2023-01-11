@@ -39,11 +39,18 @@ namespace Astra
             request.SetMethod(Method.POST);
             request.SetContentType("application/json");
             request.SetContent(content);
-            var response = request.Send();
+            NetResponse response = request.Send();
+            if (respone.Status != HttpStatusCode.OK)
+            {
+                core.WriteLine(Color.Lime, $"Successfully Created Channel: {cname}");
+            }
+            
+            /*var response = request.Send();
             if (response.Status != HttpStatusCode.BadRequest)
             {
                 core.WriteLine(Color.Lime, $"Successfully Created Channel: {cname}");
             }
+            */
         }
     }
 }
